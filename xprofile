@@ -1,0 +1,7 @@
+#!/bin/sh
+
+umask 077
+
+xrdb -merge "${HOME}/.Xresources"
+dex -a -e Awesome
+ssh-agent awesome

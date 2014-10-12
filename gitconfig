@@ -1,0 +1,15 @@
+[user]
+	email = mod@websys.io
+	name = MoD
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[core]
+	editor = vim
+[alias]
+	st = status
+	br = branch
+	co = checkout
+	df = diff
