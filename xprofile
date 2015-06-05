@@ -2,6 +2,11 @@
 
 umask 077
 
+autocutsel -fork &
+autocutsel -selection PRIMARY -fork &
+
 xrdb -merge "${HOME}/.Xresources"
 dex -a -e Awesome
-ssh-agent awesome
+wmname LG3D
+
+awesome

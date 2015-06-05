@@ -12,4 +12,8 @@
 	st = status
 	br = branch
 	co = checkout
+	ci = commit
 	df = diff
+  pl = log --graph --decorate --pretty=oneline --abbrev-commit
+[push]
+	default = simple

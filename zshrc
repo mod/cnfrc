@@ -3459,6 +3459,23 @@ zrclocal
 ### example: split functions-search 8,16,24,32
 #@# split functions-search 8
 
+## MoD ##
+#########
+
+safeload() {
+    envoy -a $HOME/safe/keys/*.key
+    envoy -l
+}
+
+source <(envoy -p)
+
+export GEM_HOME="$(ruby -e 'print Gem.user_dir')"
+export GRADLE_HOME="$HOME/root/usr/local/gradle"
+
+export PATH="$HOME/root/bin:$GEM_HOME/bin:$GRADLE_HOME/bin:$PATH"
+
+export TERM="xterm-256color"
+
 ## END OF FILE #################################################################
 # vim:filetype=zsh foldmethod=marker autoindent expandtab shiftwidth=4
 # Local variables:
