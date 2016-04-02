@@ -9,4 +9,3 @@ xrdb -merge "${HOME}/.Xresources"
 dex -a -e Awesome
 wmname LG3D
 
-awesome
